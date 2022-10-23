@@ -1,0 +1,113 @@
+#logo-arriba{
+    display: block;
+	text-align: center;
+	background: moccasin;
+	height: 100px;
+}
+
+#cuerpo{
+	text-align: center;
+	background: moccasin;
+	height:300px;
+	display:flow-root;
+} 
+
+
+#pie{
+	color:white;
+	text-align: center;
+	background: darkgreen;
+	height:100px;
+	display:block;
+	border-radius: 15px 50px;
+}
+
+    
+#contenedor{
+	position:relative;
+	width: 100%;
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+    
+header{
+	margin: 0;
+    padding: 0;
+    height: 100%;
+	background-color: moccasin;
+}
+header p{
+    color:yellow;
+    text-shadow: 2px 2px 7px black;
+	text-align: center;
+	line-height: 150px;
+}
+#cuerpo{
+	display: inline;
+}
+#contenido{
+	text-align: left;
+	min-height: 300px;
+	padding:20px;
+	margin: 10px;
+	background-color:blanchedalmond ;
+    display:flow-root;
+
+}
+aside{
+
+	display:inline-block;
+	width: 200px;
+	min-height: 300px;
+	padding: 10px;
+	margin: 10px;
+	background-color: moccasin;
+	float:left;
+}
+aside p{
+    margin-top: 15px;
+	text-align: center;
+    padding: 10px;
+}
+footer{
+	clear:both;
+    background-color: rgb(170,95,0);
+    display: flex;
+}
+
+.bloque{
+    width: 33%;
+	text-align: center;
+    padding: 20px;
+    flex: 1;
+}
+    
+.bloque p{
+    padding: 3px;
+    color:white;
+ }
+.titulo{
+    padding: 8px;
+    color: #226dbe;
+    text-align: left;
+}
+
+@media (max-width: 700px){
+    #contenido{
+        text-align: center;
+        background: moccasin;
+        display:inline-block;
+    }
+    aside{
+        width: 100%;
+    }
+    .bloque{
+    font-size: 12px;
+}
+}
+    
+br {
+    color:black;
+}
+

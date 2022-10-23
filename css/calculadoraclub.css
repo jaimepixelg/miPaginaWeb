@@ -1,0 +1,108 @@
+
+input[type="button"],button,.blue_button
+{
+	border-style: outset;
+	color:white;
+	background:rgba(0%,0%,0%,80%);
+	font-size: 1.5em;
+	font-weight:normal;
+	cursor:pointer;
+	border-radius:10px;
+}
+.frms{
+	background-color:rgba(0%,0%,0%,60%);
+	width:285px;
+	border-style: outset;
+	margin:50px auto;
+	padding:10px;
+	border-radius:1.2em;
+	color:#333;
+	font-size:.9em;
+	line-height:1.2em;
+}
+.articulo
+{	font-family: monospace;
+    font-size:0.9em;
+	width:91%;
+	background:rgba(50%,100%,50%,75%);
+	border:#ddd 1px solid;
+	border-radius:.95em;
+	border-style: inset;
+	padding:2px;
+	margin-top:5px;
+	margin-bottom:15px;
+	height:205px;
+	text-align:center;
+    
+}
+
+.nombreDisplay {
+    width: 100px;
+    text-align: right;
+}
+.apellidosDisplay {
+    width: 100px;
+    text-align: left;
+}
+
+#total{
+    width:307px;
+}
+
+#diplay tr td{
+    
+    border-bottom: 1px solid green ;
+}
+
+td input[type="image"]
+{	background-color: #a7a7a7;
+    color: #313131;
+    border-radius:10px;
+	border-style: outset;
+}
+
+.entradadatos{
+}
+
+.trentradadatos{
+	background-color: blue;
+    align-content: center;
+    vertical-align: top;
+}
+
+.entradadatos input[type="text"]{
+	background:rgba(50%,100%,50%,75%);
+    width: 70%;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.negrita{
+    font-size: 0.8em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.btn
+{   margin-left: 3px;
+	width:40px;
+	height:40px;
+	word-wrap: normal !important;
+}
+
+.btndoble
+{   margin-left: 5px;
+	width:85px;
+	height:40px;
+	word-wrap: normal !important;
+}
+
+
+.btnpeq
+{   
+	width:45px;
+	height:32px;
+	word-wrap: normal !important;
+    border-radius: 10px;
+}
+
